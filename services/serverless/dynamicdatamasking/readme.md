@@ -92,7 +92,7 @@ FROM OPENROWSET(BULK 'DLHDev/dimaddress', DATA_SOURCE = 'ServeDataSource', FORMA
         ) r
 GO
 ```
-- Grand Permission to **masked** schema
+- Grant Permission to **masked** schema
 ```sql
 GRANT SELECT ON SCHEMA::masked TO MaskingTestUser;
 ```
