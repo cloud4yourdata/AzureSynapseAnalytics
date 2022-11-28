@@ -9,7 +9,7 @@ Depending on permissions (**MASK/UNMASK**) users see mask/unmasked data (columns
 
 - Run [Setup Script](src/Setup.sql)
 
-#### Setup scrips creates:
+#### Setup script creates:
 - **utils** schema (SPs)
 - **masked** schema - masked views will be (by default) created in this schema
 - **utils.usp_CreateOrRefreshMaskedView** SP
